@@ -20,6 +20,7 @@
     --color-title:#333;
     --text-color:#212121;
     --link-color:#002f5e;
+    --red-color: #d80f0f;
     --link-alpha-color:#34dce8;
     /*shadow*/
     --white-alpha-color:rgba(255, 255, 255, 0.87);
@@ -128,15 +129,14 @@ img {
 
 
 /* Hero-image */
-.hero-image{
-    background-image: url("../assets/bg-autopista.jpg");
+.hero- {
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     background-attachment: var(--hero-attachment);
 }
 
-.hero-image-opacity{
+.hero-image-opacity { 
     width: 100%;
     height: 60vh;
     display:flex;
@@ -144,12 +144,16 @@ img {
     align-items:center;
     text-align:center;
 }
-.hero-image-title{
+.hero-image-title {
     font-size:7.4vw;
     color:var(--hero-color-text);
     margin-bottom: 2rem;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 /*-----Style Site-----*/
 
