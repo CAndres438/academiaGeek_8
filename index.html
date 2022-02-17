@@ -1,114 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Academia Geek 8</title>
-    <link rel="stylesheet" href="Css/style.css">
-    <link rel="stylesheet" href="Css/inicio.css">
-</head>
-<body>
-     
-  <!--carrousel-section-->
-  <section class="carrousel-section section">
-    <h2 class="text-center">NUESTROS SERVICIOS</h2>
+    <link rel="stylesheet" href="Css/swiperSlider.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/inicio.css" />
+    <!--Swiper JS-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--carrousel-section-->
+    <section class="carrousel-section section">
+      <h2 class="text-center">NUESTROS SERVICIOS</h2>
       <div class="carrousel-column contenedor">
-          <a href="#" class="carrousel-item">
-              <img src="assets/bg-autopista.jpg" alt="">
-              <h2 class="btn-title carrousel-item-title">Hoteles</h2>
-          </a>
-          <a href="#" class="carrousel-item">
-            <img src="assets/bg-autopista.jpg" alt="">
-            <h2 class="btn-title carrousel-item-title">Hoteles</h2>
-        </a>
-        
-      </div>
-  </section>
- <!--exclusive-group 2 component-->
- <section class="exclusive-groupt section">
-    <div class="contenedor">
-      <div class="card-group-campaign">
-        <div class="col100">
-          <div class="imgContainer">
-            <img src="https://www.libertytravel.com/sites/default/files/styles/full_size/public/LT756562811-co_op-H_715x715-allianz3.jpg?itok=0sYAnJhE" alt="">
-          </div>
-          <div class="textContainer">
-            <div class="title">
-              <h3>Vuelve a lo que amas</h3>
-              <h2>VIAJE SEGURO | POST COVID</h2>
-              <p>Responda a la llamada de la aventura con la protección adicional del seguro de viaje de Allianz. Ya sea que tenga que cancelar un viaje en el último minuto o necesite ayuda rápidamente cuando esté lejos de casa, confíe en la galardonada asistencia las 24 horas del día, los 7 días de la semana, para brindarle tranquilidad. Planifique su viaje con confianza hoy mismo con los consultores expertos de Liberty Travel.</p>
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <a href="#" class="carrousel-item">
+                <img src="assets/bg-autopista.jpg" alt="" />
+                <h2 class="btn-title carrousel-item-title">Hoteles</h2>
+              </a>
             </div>
-            <a href="#" class="btn text-center">Aprende más</a>
+            <div class="swiper-slide">
+              <a href="#" class="carrousel-item">
+                <img src="assets/bg-autopista.jpg" alt="" />
+                <h2 class="btn-title carrousel-item-title">Hoteles</h2>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="carrousel-item">
+                <img src="assets/bg-autopista.jpg" alt="" />
+                <h2 class="btn-title carrousel-item-title">Hoteles</h2>
+              </a>
+            </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!--exclusive-group 2 component-->
+    <section class="exclusive-groupt section">
+      <div class="contenedor">
+        <div class="card-group-campaign">
+          <div class="col100">
+            <div class="imgContainer">
+              <img
+                src="https://www.libertytravel.com/sites/default/files/styles/full_size/public/LT756562811-co_op-H_715x715-allianz3.jpg?itok=0sYAnJhE"
+                alt=""
+              />
+            </div>
+            <div class="textContainer">
+              <div class="title">
+                <h3>Vuelve a lo que amas</h3>
+                <h2>VIAJE SEGURO | POST COVID</h2>
+                <p>
+                  Responda a la llamada de la aventura con la protección
+                  adicional del seguro de viaje de Allianz. Ya sea que tenga que
+                  cancelar un viaje en el último minuto o necesite ayuda
+                  rápidamente cuando esté lejos de casa, confíe en la
+                  galardonada asistencia las 24 horas del día, los 7 días de la
+                  semana, para brindarle tranquilidad. Planifique su viaje con
+                  confianza hoy mismo con los consultores expertos de Liberty
+                  Travel.
+                </p>
+              </div>
+              <a href="#" class="btn text-center">Aprende más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-image-one">
+      -->
+      <section class="hero-image" style="--attachment: fixed">
+        <aside class="hero-image-opacity">
+          <div class="hero-image-content">
+            <h2
+              class="hero-image-title"
+              style="--hero-color-text: var(--white-color)"
+            >
+              Bienvenid@ <br />
+              sólo se vive una vez
+            </h2>
+            <a href="#contacto" class="btn">VER DESTINOS</a>
+          </div>
+        </aside>
+      </section>
+    </section>
+
+    <!--SWIPER SLIDER 2 OPEN-->
+    <section class="carrousel-section section">
+      <h2 class="text-center">DESTINOS INTERNACIONALES</h2>
+    <div class="carrousel-column-two contenedor">
+     <!-- Slider main container -->
+     <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <a href="#" class="carrousel-item-two">
+            <img src="assets/bg-autopista.jpg" alt="" />
+            <h2 class="carrousel-item-title-two">Hoteles</h2>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#" class="carrousel-item-two">
+            <img src="assets/bg-autopista.jpg" alt="" />
+            <h2 class="carrousel-item-title-two">Hoteles</h2>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#" class="carrousel-item-two">
+            <img src="assets/bg-autopista.jpg" alt="" />
+            <h2 class="carrousel-item-title-two">Hoteles</h2>
+          </a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+    <!--SWIPER SLIDER 2 CLOSE -->
 
-  <section class="hero-image-one">-->
-    <section class="hero-image" style="--attachment:fixed;">
-        <aside class="hero-image-opacity" >
-            <div class="hero-image-content">
-                <h2 class="hero-image-title" style="--hero-color-text:var(--white-color);">
-                    Bienvenid@ <br>
-                    sólo se vive una vez
-                </h2>
-                <a href="#contacto" class="btn">VER DESTINOS</a>
-            </div>
+
+  
+    <!--<section class="bg-section banner">-->
+    <section class="hero-image-two">
+      <section class="hero-image" style="--attachment: fixed">
+        <aside class="hero-image-opacity">
+          <div class="hero-image-content">
+            <h2
+              class="hero-image-title"
+              style="--hero-color-text: var(--black-color)"
+            >
+              <span>N</span>uestros <span>P</span>aquetes
+            </h2>
+          </div>
+          <div class="hero-image-content hero-image-content-bg">
+            <h2
+              class="hero-image-title"
+              style="--hero-color-text: var(--white-color)"
+            >
+              Descuentos al 50%
+            </h2>
+          </div>
         </aside>
+      </section>
     </section>
 
-  </section>
-  <!--carrousel-section-->
-  <section class="carrousel-section section">
-    <h2 class="text-center">DESTINOS INTERNACIONALES</h2>
-      <div class="carrousel-column-two contenedor">
-          <a href="#" class="carrousel-item-two">
-              <img src="assets/bg-autopista.jpg" alt="">
-              <h2 class="carrousel-item-title-two">Hoteles</h2>
-          </a>
-          <a href="#" class="carrousel-item-two">
-            <img src="assets/bg-autopista.jpg" alt="">
-            <h2 class="carrousel-item-title-two">Hoteles</h2>
-        </a>
-        
-      </div>
-  </section>
-  <!---->
-    <!--<section class="bg-section banner">-->
-      <section class="hero-image-two">
-        <section class="hero-image" style="--attachment:fixed;">
-          <aside class="hero-image-opacity" >
-              <div class="hero-image-content">
-                  <h2 class="hero-image-title" style="--hero-color-text:var(--black-color);">
-                   <span>N</span>uestros <span>P</span>aquetes
-                  </h2>
-              </div>
-              <div class="hero-image-content hero-image-content-bg">
-                <h2 class="hero-image-title" style="--hero-color-text:var(--white-color);">
-                  Descuentos al 50%
-                </h2>
-              </div>
-          </aside>
-      </section>
-      </section>
-    
-  <!--</section>-->
+    <!--</section>-->
     <!--carrousel-section-->
     <section class="carrousel-section section">
       <h2 class="text-center">DESTINOS INTERNACIONALES</h2>
-        <div class="carrousel-column-two contenedor">
-            <a href="#" class="carrousel-item-two">
-                <img src="assets/bg-autopista.jpg" alt="">
-                <h2 class="carrousel-item-title-two">Hoteles</h2>
-            </a>
-            <a href="#" class="carrousel-item-two">
-              <img src="assets/bg-autopista.jpg" alt="">
-              <h2 class="carrousel-item-title-two">Hoteles</h2>
-          </a>
-          
-        </div>
+      <div class="carrousel-column-two u-layout-wrapp contenedor">
+        <a href="#" class="carrousel-item-two u-layout-wrapp-item">
+          <h2 class="">FREE</h2>
+          <span>$0</span>
+          <p>PER MOUNTH</p>
+          <div class="divider-border"></div>
+          <button class="btnGetPlan btn">GET PLAN</button>
+        </a>
+        <a href="#" class="carrousel-item-two u-layout-wrapp-item">
+          <h2 class="">STANDART</h2>
+          <span>$29</span>
+          <p>PER MOUNTH</p>
+          <div class="divider-border"></div>
+          <button class="btnGetPlan btn">GET PLAN</button>
+        </a>
+        <a href="#" class="carrousel-item-two u-layout-wrapp-item">
+          <h2 class="">BUSINESS</h2>
+          <span>$59</span>
+          <p>PER MOUNTH</p>  
+          <div class="divider-border"></div>
+          <button class="btnGetPlan btn">GET PLAN</button>
+        </a>
+      </div>
     </section>
     <!---->
     <!---->
@@ -122,7 +197,7 @@
       <div class="grid-card">
         <div class="grid-card-text">
           <h3>AVIANCA LOUNGES BÓGOTA</h3>
-        </div>   
+        </div>
       </div>
       <div class="grid-card">
         <div class="grid-card-text">
@@ -146,6 +221,35 @@
       </div>
     </section>
     <!---->
-    
-</body>
+
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <a href="#" class="carrousel-item">
+            <img src="assets/bg-autopista.jpg" alt="" />
+            <h2 class="btn-title carrousel-item-title">Hoteles</h2>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#" class="carrousel-item">
+            <img src="assets/bg-autopista.jpg" alt="" />
+            <h2 class="btn-title carrousel-item-title">Hoteles</h2>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#" class="carrousel-item">
+            <img src="assets/bg-autopista.jpg" alt="" />
+            <h2 class="btn-title carrousel-item-title">Hoteles</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="Scripts/swiper.js"></script>
+  
+  </body>
 </html>

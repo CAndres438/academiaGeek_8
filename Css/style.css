@@ -26,6 +26,7 @@
     --white-alpha-color:rgba(255, 255, 255, 0.87);
     --black-alpha-color:rgba(0, 0, 0, 0.87);
     --border-light:#ebecec;
+    --box-shadow-one :20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
   
     /*size*/
     --margin:2rem;
@@ -44,7 +45,7 @@
 body {
     color: var(--text-color);
     background-color: var(--white);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 a{
@@ -112,6 +113,7 @@ img {
     border:0;
     color: #fff;
     border-radius: 2px;
+    cursor: pointer;
     }
 
 .btn a {
