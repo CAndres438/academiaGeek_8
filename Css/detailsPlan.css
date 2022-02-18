@@ -26,7 +26,12 @@
     cursor: pointer;
     border-radius: 6px;
     box-shadow: 5px 5px 25px #a4a4a4,-5px -5px 25px #ffffff;
+    transition: transform .3s ease-in-out;
 } 
+
+.grid-card-two:hover {
+    transform: scale(1.1);
+}
 
 .grid-card-two img {
     width: 100%;

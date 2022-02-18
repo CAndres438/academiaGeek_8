@@ -46,11 +46,13 @@ body {
     color: var(--text-color);
     background-color: var(--white);
     overflow-x: hidden !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a{
     color:var(--link-color);
     transition:all 500ms ease-out;
+    text-decoration: none;
 }
 
 h1{
@@ -113,8 +115,9 @@ img {
 /* daniel s */
 
 header {
-  background-color: #262626;
+  background-color: var(--gray-light-color);
   margin-bottom: 4rem;
+  box-shadow: var(--box-shadow-one);
 }
 
 .navbar {
@@ -123,6 +126,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nav-menu {
@@ -131,6 +136,7 @@ header {
   align-items: center;
   gap: 60px;
   z-index: 999;
+  color: var(--first-color);
 }
 
 .nav-branding {
@@ -142,7 +148,7 @@ header {
 }
 
 .nav-link:hover {
-  color: aqua;
+  color: var(--third-color);
 }
 
 .hamburger {
