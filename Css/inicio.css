@@ -224,8 +224,8 @@
         grid-template-columns: repeat(3, 1fr);
 }
 
-.u-layout-wrapp-item {
-    width: 320px;
-}   
+    .u-layout-wrapp-item {
+        width: 320px;
+    }
 
 }
